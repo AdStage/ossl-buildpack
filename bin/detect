@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # bin/detect <build-dir>
 
-echo "Ruby with OpenSSL 1.0.1e"
+echo "Ruby with OpenSSL 0.9.8zg"
 exit 0

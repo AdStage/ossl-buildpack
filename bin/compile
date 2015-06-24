@@ -4,7 +4,7 @@
 echo "-----> Fetching OpenSSL binaries"
 mkdir -p $1/vendor/openssl
 cd $1/vendor/openssl
-curl https://moonshot-buildpack-ruby.s3.amazonaws.com/binaries/openssl-1.0.1e.tgz -s -o - | tar xzf -
+curl https://www.openssl.org/source/openssl-0.9.8zg.tar.gz -s -o - | tar xzf -
 echo "-----> Got OpenSSL binaries"
 
 BP_DIR=`cd $(dirname $0); cd ..; pwd`
