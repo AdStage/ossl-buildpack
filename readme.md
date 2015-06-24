@@ -8,4 +8,4 @@ This builds a Heroku instance with linked to OpenSSL 0.9.8zg.
 
     $ cat .buildpacks
     https://github.com/heroku/heroku-buildpack-ruby.git
-    https://github.com/gtank/ossl-buildpack.git
+    https://github.com/AdStage/ossl-buildpack.git
